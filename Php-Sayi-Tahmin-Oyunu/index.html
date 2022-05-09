@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .input{
+  padding: 16px 32px;
+  border: solid 1px black;
+  margin: 4px 2px;
+  width:200px;
+        }
+        .button{
+            background-color: #55f169;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size:40px;
+        }
+        .text{
+            text-align: center;
+            font-size: 35px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .main{
+            margin-top: 200px;
+        }
+    </style>
+
+</head>
+<body>
+     <div class="main">
+         <!---//Bu alana yayınlamak istediğiniz yeri yazacaksınız.--->
+    <form action="http://localhost/sayi_tahmin_oyunu/check.php" method="post">
+    <p class="text">Sayi Tahmin Oyununa Hoşgeldiniz.</p><br>
+    <p class="text">Başlamak İçin Lütfen 1-15 Arasında Sayi Giriniz:</p><br>
+    <div style="text-align:center;">
+    <input type="text" name="veri" class="input"><br>
+    <button type="submit" class="button">Gönder</button>
+    </div>
+    </form>
+    </div>
+</body>
+</html>
